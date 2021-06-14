@@ -1,0 +1,52 @@
+.navbarContainer {
+  width: 100%;
+  margin: auto;
+  border: 0px solid rgb(236, 238, 240);
+  box-shadow: 0 0px 5px rgb(155, 155, 155);
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  height: 4rem;
+  justify-content: space-between;
+  box-sizing: content-box;
+
+  background-color: rgba(216, 216, 216, 0.788);
+}
+/* https://dev.to/ibrahima92/build-a-sticky-navigation-bar-with-react-3bjh */
+
+/* IMPORTANT */
+.scrolled {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: lightblue;
+}
+
+.rest_name {
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+  font-weight: 500;
+  font-size: 1.3rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.backArrowIcon {
+  padding-top: 0.35rem;
+  padding-right: 1rem;
+}
+
+.cart {
+  padding-right: 0.8rem;
+  align-self: center;
+}
+
+.cart a p {
+  font-size: 1.6rem;
+  color: rgb(6, 173, 6) !important;
+}
+
+.cartIcon {
+  cursor: pointer;
+}

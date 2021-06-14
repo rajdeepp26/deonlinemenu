@@ -1,0 +1,17 @@
+.categoryCard {
+  color: blue;
+}
+
+.categoryHeading {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  padding: 0.5rem;
+  background-color: burlywood !important;
+  /* background: chocolate; yellowgreen  burlywood */
+}
+
+.categoryItemContainer {
+  padding-bottom: 2rem;
+}

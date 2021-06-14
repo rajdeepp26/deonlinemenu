@@ -1,0 +1,85 @@
+.menu {
+  margin: auto;
+  font-size: 1rem;
+  text-align: center;
+  color: rgb(85, 84, 84);
+}
+
+.categoryItemContainer {
+  padding-bottom: 2rem;
+}
+
+.cardAlignment {
+  min-width: 22rem;
+}
+
+.seperator h6 {
+  width: 20rem;
+  text-align: center;
+  color: rgb(211, 178, 178);
+  border-bottom: 1px solid rgb(190, 179, 179);
+  line-height: 0.1em;
+  margin: 50px 0 20px;
+}
+
+.seperator span {
+  background: #fff;
+  padding: 0 10px;
+}
+
+.priceContainer {
+  width: 100%;
+}
+.itemPriceContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.4rem 0rem;
+  padding-left: 0.5rem;
+  padding-right: 0.3rem;
+}
+
+.taxPriceContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.4rem 0rem;
+  padding-left: 0.5rem;
+  padding-right: 0.3rem;
+}
+
+.totalPriceContainer {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  padding: 0.4rem 0rem;
+  padding-left: 0.5rem;
+  padding-right: 0.3rem;
+  background-color: rgb(231, 236, 220);
+  border-radius: 5px;
+  /* burlywood */
+}
+
+/* .checkoutButtonContainer {
+} */
+.checkoutButton {
+  width: 100%;
+  background-color: green;
+  color: white;
+  height: 3rem;
+  font-size: 1rem;
+  margin-top: 4rem;
+  border-style: solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.arrowIcon {
+  align-items: center;
+  padding-left: 1rem;
+  padding-top: 0.1rem;
+}
+
+.linkToCheckout {
+  text-decoration: "none";
+}

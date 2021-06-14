@@ -1,0 +1,57 @@
+.mainContainer {
+  display: flex;
+  padding: 0.8rem 0rem;
+  justify-content: space-between;
+}
+
+.heading {
+  margin: 0rem !important;
+  align-self: center;
+  font-weight: 500;
+  font-size: 1rem;
+  max-width: 5.8rem;
+}
+
+.cost {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  color: rgb(35, 64, 70);
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+.itemCount {
+  color: green;
+  padding-right: 0.4rem;
+  font-weight: 500;
+}
+/* 
+.buttonGroup {
+} */
+
+.buttonAdd {
+  margin-right: 0.4rem;
+  height: 2rem;
+  width: 2.8rem;
+  border-radius: 0.4rem;
+  background-color: rgb(255, 255, 255);
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: rgb(11, 189, 11);
+  border-color: rgb(166, 214, 196);
+  border-style: solid;
+  cursor: pointer;
+}
+.buttonSubstract {
+  margin-right: 0.4rem;
+  height: 2rem;
+  width: 2.8rem;
+  border-radius: 0.4rem;
+  background-color: rgb(255, 255, 255);
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: rgb(112, 112, 112);
+  border-color: rgb(166, 214, 196);
+  border-style: solid;
+  cursor: pointer;
+}
