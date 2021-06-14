@@ -11,7 +11,14 @@ const Listitems = () => {
 
   const getItems = async () => {
     try {
-      const response = await fetch("http://localhost:5000/menu");
+      // proxy
+      // "proxy": "http://localhost:5000"
+
+      const response = await fetch("/menu", {
+        method: "GET",
+        headers: { "content-Type": "application/json" },
+      });
+
       const jsonData = await response.json();
 
       // get the category name from menu items

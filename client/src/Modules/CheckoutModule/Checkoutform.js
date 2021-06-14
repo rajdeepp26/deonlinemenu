@@ -32,7 +32,10 @@ const Checkoutform = () => {
   //
   //
   const notify = () => {
-    toast.success("Your order is received", {});
+    toast.success("Your order is received");
+  };
+  const addItemNotify = () => {
+    toast.warning("Add items to your cart");
   };
   //
   const sendDataToTable = async (values) => {
@@ -47,7 +50,7 @@ const Checkoutform = () => {
         const totalPrice = 1200;
         const body = { cartItems, totalPrice, ...values };
 
-        const response = await fetch("http://localhost:5000/order", {
+        const response = await fetch("/order", {
           method: "POST",
           headers: { "content-Type": "application/json" },
           body: JSON.stringify(body),
@@ -60,6 +63,8 @@ const Checkoutform = () => {
         }, 2500);
 
         // window.location.reload();
+      } else {
+        addItemNotify();
       }
     } catch (err) {
       console.error(err.message);
