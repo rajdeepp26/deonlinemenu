@@ -26,7 +26,7 @@ if (process.env.NODE_ENV === "production") {
 // get all menu items
 app.get("/menu", async (req, res) => {
   try {
-    const restId = "1e7918df-96e8-4ff5-acb1-e349ef95eca5";
+    const restId = "a95b3c88-ecb5-45c7-a36e-9f19275ea7e4";
     const allMenuItems = await pool.query(
       "SELECT * FROM menu where rest_id= $1",
       [restId]
@@ -41,7 +41,7 @@ app.get("/menu", async (req, res) => {
 // Store the order details
 app.post("/order", async (req, res) => {
   try {
-    const restId = "1e7918df-96e8-4ff5-acb1-e349ef95eca5";
+    const restId = "a95b3c88-ecb5-45c7-a36e-9f19275ea7e4";
     const {
       fullName,
       phoneNumber,
