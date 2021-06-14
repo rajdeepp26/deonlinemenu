@@ -12,12 +12,8 @@ const Listitems = () => {
   const getItems = async () => {
     try {
       // proxy
-      // "proxy": "http://localhost:5000"
 
-      const response = await fetch("/menu", {
-        method: "GET",
-        headers: { "content-Type": "application/json" },
-      });
+      const response = await fetch("/menu");
 
       const jsonData = await response.json();
 
